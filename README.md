@@ -1,23 +1,24 @@
-# Adrián Perogil Fernández
+# Adrián Perogil Fernández  
 
-# Simulador de Neurona con Streamlit
+## Simulador de Perceptrón con Streamlit  
 
-Este proyecto es una aplicación interactiva construida con **Streamlit** para simular el funcionamiento de una neurona artificial. Los usuarios pueden ajustar pesos, entradas y sesgos para calcular la salida de la neurona en diferentes configuraciones.
-
----
-
-## 🧠 Funcionalidades
-
-La aplicación permite trabajar con los siguientes modelos de neuronas:
-1. **Una entrada y un peso:** Calcula la salida de una neurona con una única entrada y un único peso.
-2. **Dos entradas:** Calcula la salida de una neurona con dos entradas y sus respectivos pesos.
-3. **Tres entradas y sesgo:** Calcula la salida de una neurona con tres entradas, sus respectivos pesos y un sesgo adicional.
-
-Cada modelo está presentado en su propia pestaña, lo que permite al usuario cambiar entre configuraciones de manera intuitiva.
+Este proyecto es una aplicación interactiva construida con Streamlit para simular el funcionamiento de un perceptrón. Los usuarios pueden ajustar pesos, entradas y sesgo para calcular la salida del perceptrón con diferentes configuraciones.  
 
 ---
+
+## 🧠 Funcionalidades  
+
+La aplicación permite trabajar con un perceptrón que admite configuraciones personalizables:  
+
+- **Múltiples entradas y pesos:** El usuario puede seleccionar el número de entradas (de 1 a 10) y configurar sus valores junto con los pesos correspondientes.  
+- **Sesgo único:** Existe un sesgo común para todas las entradas del perceptrón que puede ajustarse de forma interactiva.  
+- **Funciones de activación:** Los usuarios pueden elegir entre tres funciones de activación para calcular la salida del perceptrón:  
+  - **Sigmoide**  
+  - **ReLU**  
+  - **Tangente hiperbólica**  
+  - **Binary Step**
 
 ## 🌐 Probar la aplicación
 
 ¡Puedes probar la aplicación directamente en el siguiente enlace!  
-[Haz clic aquí para acceder](https://apfholaneurona.streamlit.app/)
+[Haz clic aquí para acceder](https://apfholaperceptron.streamlit.app/)
